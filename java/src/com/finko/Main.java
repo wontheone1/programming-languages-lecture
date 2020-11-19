@@ -8,6 +8,8 @@ public class Main {
 //        DivisionByZero.main();
 //        ArrayBoundsError.main();
 //        GetDoubleForDifferentType.main();
+//        Append1.main();
+        Append2.main();
     }
 
 }
