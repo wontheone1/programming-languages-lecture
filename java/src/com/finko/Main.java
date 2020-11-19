@@ -31,16 +31,8 @@ public class Main {
 //        System.out.println(myArray[5]); // out of bound
 //    }
 
-    // Cannot use getDouble function for String or int. Seems like there is no easy way in Java.
-    // Just use two different getDoubleFunction for int or String
-    // (or maybe you can define a class that holds a number and string?)
     public static void main(String[] args) {
-        System.out.println(getDouble(5));
-        System.out.println(getDouble(10));
-    }
-
-    private static int getDouble(int arg) {
-        return arg+arg;
+        GetDoubleForDifferentType.main();
     }
 
 }
