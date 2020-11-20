@@ -35,3 +35,9 @@ function cube(num) {
   return num * num * num;
 }
 console.log(higherOrderSumOfRange(cube, 1, 10));
+
+// higher order functions or higher order methods (? made up name)
+// You can think of the object as the first argument of equivalent functions
+console.log([1, 2, 3, 4, 5].map((num) => 10 * num)); // multiply all by 10
+console.log([1, 2, 3, 4, 5].filter((num) => num % 2 === 0)); // filter non even numbers
+console.log([1, 2, 3, 4, 5].reduce((num, acc) => num + acc)); // reduce all to one value by keep adding
